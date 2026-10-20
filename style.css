@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial;
+}
+
+body{
+    background-image: url(img/background.jpg);
+}
+
+#left{
+    float: left;
+    margin-left: 300px;
+    margin-top: 40px;
+    height: 530px;
+    width: 350px;
+    border-radius: 15px;
+}
+
+#form{
+    float: right;
+    margin-top: 100px;
+    margin-right: 300px;
+    background-color: white;
+    display: inline-block;
+    height: 520px;
+    width: 350px;
+    border-radius: 15px;
+}
+
+h1{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-weight: normal;
+}
+
+.user{
+    color: gray;
+    margin-top:  20px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.placeholders{
+    margin-left: 20px;
+    margin-top: 20px;
+    color: gray;
+    font-size: small;
+}
+
+input{
+    margin-top: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-left: 20px;
+    height: 40px;
+    width: 85%;
+}
+
+#button{
+    cursor: pointer;
+    margin-top: 50px;
+    color: white;
+    background-color: rgba(117, 101, 217);
+    border-radius: 10px;
+}
+
+#continue{
+    margin-top: 30px;
+    margin-left: 20px;
+    color: gray;
+    font-size: small;
+}
+
+#google{
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: rgba(26, 118, 255);
+}
+
+#unity{
+    font-size: 35px;
+    margin-top: 0;
+    color: white;
+    font-weight: bold;
+    margin-left: 30%;
+}
+
+#bottom-i{
+    color: blue;
+}
+
+#platform-kit{
+    color: white;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+#callofduty,#dota,#lol{
+    margin-left: 20px;
+    margin-top: 25px;
+    height: 100px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    display: flex;
+    align-items: flex-start;
+}
+
+img{
+    height: 100%;
+    width: 48%;
+}
+
+ul{
+    margin: 10px auto;
+}
+.li1{
+    color: white;
+    font-weight: bolder;
+    margin-left: 25px;
+}
+
+.li2{
+    font-weight: bold;
+    margin-left: 40px;
+    color: rgba(67, 69, 71);
+}
+
+.li3{
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+ul li{
+    margin-top: 10px;
+}
+
+#discover{
+    color: white;
+    font-weight: bold;
+    margin-top: 25px;
+    text-align: center;
+}
+
+#discover i{
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-right: 5px; 
+}
+
+a{
+    color: rgba(67, 69, 71);
+}
+
+#form-i{
+    margin-left: 170px;
+    font-size: large;
+}
+
+#unity-i{
+    color: rgba(164, 88, 255);
+}
